@@ -280,3 +280,7 @@ if uploaded_pdf:
 st.sidebar.markdown("<h4>Uploaded PDFs</h4>", unsafe_allow_html=True)
 for pdf in os.listdir("uploads"):
     st.sidebar.markdown(f"📄 {pdf}")
+
+    # Footer
+st.markdown("---")
+st.write("📌 **All Right Received @2025 Created by Muhammad Sarim  **")
